@@ -1,7 +1,7 @@
 # Away detection
 
 Welcome to Away detection , an simple script that **mutes** or even **turn off camera** in your favorite applications like 
-- Microsoft teams ( in development) 
+- Microsoft teams ( yet to test) 
 - Zoom Meeting ( completed implementation)
 - Google Meeting ( in development)
 

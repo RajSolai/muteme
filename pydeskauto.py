@@ -66,7 +66,16 @@ class app:
 		if given_state!=state:
 			state = given_state
 			print("State changes to :"+state)
-			self.zoom_audio_toogle()
+			print("1.Zoom \n 2.Teams \n 3.G-Meet")
+			app_choice = input("Enter the appname the you use")
+			if app_choice == 1:
+				self.zoom_audio_toogle()
+			elif app_choice ==2:
+				self.msteams_audio_toogle()
+			elif app_choice == 3:
+				print("Sorry G-Meet still not NotImplemented")
+			else:
+				print("Please select any of three apps")
 	def zoom_audio_toogle(self):
 		# pyautogui.hotkey('alt', 'v') [currently the video does'nt working]
 		pyautogui.hotkey('alt', 'a')
